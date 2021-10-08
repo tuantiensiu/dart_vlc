@@ -10,7 +10,8 @@ class PlayVideoScreen extends StatefulWidget {
 
 class _PlayVideoScreenState extends State<PlayVideoScreen> {
   Player player = new Player(id: 69420);
-  String fullPath = 'http://api.talkschool-cambodia.com/video/1627925251.mp4';
+  String fullPath =
+      'https://cdn.vgm.tv/encrypted/testnonencrypted/playlist.m3u8';
 
   @override
   void initState() {
